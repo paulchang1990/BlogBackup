@@ -15,7 +15,7 @@ timezone:
 url: http://paulchang1990.github.io/
 root: /
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: 
 
 # Directory
 source_dir: source
@@ -66,7 +66,11 @@ feed:
   type: atom
   path: atom.xml
   limit: 10
-  hub: 
+  hub:
+
+sitemap:
+  path: sitemap.xml  
+
 ## Themes: https://hexo.io/themes/
 theme: yilia
 
